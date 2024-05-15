@@ -103,7 +103,7 @@ if __name__ == "__main__":
     if ai_strategy == '1':
         print("Function Calls Minimax:", card_game.function_calls_minmax)
     elif ai_strategy == '2':
-        print("Function Calls Minimax with Alpha-Beta Pruning:", card_game.function_calls_minmax)
+        print("Function Calls Minimax with Alpha-Beta Pruning:", card_game.function_calls_alpha_beta)
     elif ai_strategy == '3':
         print("Summary of MCTS")
     print("Elapsed time:(Full)", elapsed_time, "seconds")
